@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 import operator
 def homepage(request):
-	return render(request,"homepage.html",{"title":"Word count web page"})
+	return render(request,"homepage.html",{"title":"Word count website"})
 
 def contact(request):
 	return HttpResponse("<h2>this is contact us page</h1>This is test content only")
