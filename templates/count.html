@@ -1,0 +1,10 @@
+<h1>Counted</h1>
+<h3>Your Words</h3>
+<p>{{data}}</p>
+<h3>Total Words</h3>
+<p>{{data_len}}</p>
+<h3>Words Frequency Count</h3>
+{% for item,value in data_frequency %}
+{{item}} = {{value}}
+{% endfor %}
+
